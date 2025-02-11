@@ -14,7 +14,7 @@ export type SupportedChains = ValueOf<typeof SUPPORTED_CHAINS>;
 
 // can be swapped out for local host
 export const MAINNET_RPC =
-  'https://virtual.mainnet.rpc.tenderly.co/0694925e-8442-466d-87d1-db8dd69c9e30';
+  process.env.NEXT_PUBLIC_MAINNET_RPC ?? 'https://eth.llamarpc.com';
 
 export const RPC_URLS =
   process.env.NEXT_PUBLIC_TESTNET === 'true'
