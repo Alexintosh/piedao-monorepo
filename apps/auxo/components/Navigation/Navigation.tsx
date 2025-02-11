@@ -44,6 +44,11 @@ export default function Navigation({
       href: '/treasury-redemption-2',
       icon: <ArvIcon />,
     },
+    {
+      name: t('Redemption 3'),
+      href: '/treasury-redemption-3',
+      icon: <ArvIcon />,
+    },
   ];
 
   useEffect(() => {
