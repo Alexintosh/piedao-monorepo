@@ -118,6 +118,6 @@ export const MERKLE_TREES_BY_USER_URL =
   'https://raw.githubusercontent.com/AuxoDAO/auxo-reporter/main/reports/latest/merkle-tree-combined.json';
 
 export const MERKLE_TREES_BY_USER_DISSOLUTION_URL =
-  'https://raw.githubusercontent.com/AuxoDAO/auxo-reporter/dissolution-2/reports/dissolution-2/dissolution-tree.json';
+  'https://raw.githubusercontent.com/AuxoDAO/auxo-reporter/39e5d67f98333abd170c951ba95846da7b631cfb/reports/dissolution-3/dissolution-tree.json';
 
 export const WETH_ADDRESS = '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2';
